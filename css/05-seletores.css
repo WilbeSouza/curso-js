@@ -1,0 +1,19 @@
+.estilizar-paragrafo{
+    padding: 10px;
+    background-color: #121212;
+    color: #567483;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* estilizar os elementos por name="caixa" */
+[name="caixa"]{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #ffd87c;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px; /* ↑↓ ← → */
+}
